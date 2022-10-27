@@ -1,0 +1,177 @@
+/* screen - homepage */
+
+.homepage {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  width: 1440px;
+}
+
+.homepage .flex-row {
+  align-items: flex-start;
+  background-color: var(--mercury);
+  display: flex;
+  gap: 64px;
+  height: 1024px;
+  min-width: 1440px;
+  padding: 247px 281px;
+}
+
+.homepage .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 513px;
+  width: 250px;
+}
+
+.homepage .overlap-group5 {
+  align-items: flex-end;
+  background-color: var(--jordy-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 151px;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  min-width: 151px;
+  padding: 21px 27px;
+}
+
+.homepage .icon {
+  height: 96px;
+  object-fit: cover;
+  width: 96px;
+}
+
+.homepage .student-forumns {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 68px;
+  text-align: center;
+  width: 250px;
+}
+
+.homepage .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--jordy-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 151px;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  margin-top: 75px;
+  min-width: 151px;
+  padding: 27px;
+}
+
+.homepage .place {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 68px;
+  text-align: center;
+  width: 250px;
+}
+
+.homepage .group-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 512px;
+  width: 250px;
+}
+
+.homepage .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--jordy-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 151px;
+  justify-content: flex-end;
+  margin-right: 1.0px;
+  min-width: 151px;
+  padding: 19px 27px;
+}
+
+.homepage .icons8-group-64-1 {
+  height: 111px;
+  object-fit: cover;
+  width: 96px;
+}
+
+.homepage .groups {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 68px;
+  text-align: center;
+  width: 250px;
+}
+
+.homepage .overlap-group1 {
+  height: 218px;
+  margin-top: 75px;
+  position: relative;
+  width: 250px;
+}
+
+.homepage .rectangle-6 {
+  background-color: var(--jordy-blue);
+  border: 1px none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+  height: 151px;
+  left: 49px;
+  position: absolute;
+  top: 0;
+  width: 151px;
+}
+
+.homepage .help {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 250px;
+}
+
+.homepage .icons8-help-100-1 {
+  height: 96px;
+  left: 77px;
+  object-fit: cover;
+  position: absolute;
+  top: 28px;
+  width: 96px;
+}
+
+.homepage .flex-col-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 219px;
+  width: 250px;
+}
+
+.homepage .overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--jordy-blue);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 151px;
+  margin-right: 1.0px;
+  min-width: 151px;
+  padding: 21px 27px;
+}
+
+.homepage .meditation-centre {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 68px;
+  text-align: center;
+  width: 250px;
+}
