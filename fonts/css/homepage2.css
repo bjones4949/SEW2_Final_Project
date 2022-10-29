@@ -1,0 +1,12 @@
+/* screen - homepage */
+body {
+  background-color: red;
+
+}
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}
+.s{
+  color: red;
+}

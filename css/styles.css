@@ -1,0 +1,91 @@
+:root { 
+  --black: #000000;
+  --caribbean-green-pearl: #6fde8e;
+  --dodger-blue: #2185ff;
+  --granite-gray: #666666;
+  --heat-wave: #ff7a00;
+  --jordy-blue: #91c3ff;
+  --martinique: #2f384e;
+  --mercury: #e7e7e7;
+  --nevada: #686b73;
+  --sunglo: #f46767;
+  --tropical-blue: #c4dfff;
+  --white: #ffffff;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 30px;
+  --font-size-s: 24px;
+
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+  --font-family-sf_pro_display-regular: "SF Pro Display-Regular", Helvetica;
+  --font-family-sf_pro_text-regular: "SF Pro Text-Regular", Helvetica;
+  --font-family-sf_pro_text-semibold: "SF Pro Text-Semibold", Helvetica;
+}
+
+/* screen - homepage */
+body{
+  background-color: #e7e7e7;
+}
+.row {
+  display: flex; /* or inline-flex */
+  justify-content: space-evenly;
+
+}
+.column {
+  display: flex; /* or inline-flex */
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 98vh;
+}
+
+h1
+{
+  text-align: center;
+  align-content: center;
+  font-family: var(--font-family-sf_pro_text-semibold);
+}
+
+.icon
+{
+  height: 100px;
+  width: 100px;
+
+}
+.module
+{
+  text-align: center;
+}
+
+.background
+{
+  background-color:  #2185ff;
+  height: 98vh;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.topBar
+{
+  display: flex;
+  position: relative;
+}
+
+.Title
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 36px;
+}
+
